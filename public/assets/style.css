@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 2rem;
+}
+
+.container{
+    width: 50%;
+}
+
+form{
+    background-color: rgb(162, 7, 162);
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 4rem;
+    gap: 2rem;
+    border-radius: .6rem;
+}
+
+form label{
+    margin: .3rem 0;
+}
+
+button{
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+svg{
+    width: 5%;
+}
+
+
